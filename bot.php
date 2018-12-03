@@ -91,7 +91,7 @@ try {
                 } catch (Exception $e) {
                     if (isset($chatID)) {
                         try {
-                            //sm($chatID, '<code>'.$e.'</code>');
+                            sm($chatID, '<code>' . $e . '</code>');
                         } catch (Exception $e) {
                         }
                     }
