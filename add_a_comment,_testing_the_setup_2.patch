@@ -1,0 +1,30 @@
+Index: functions.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- functions.php	(date 1543838422000)
++++ functions.php	(date 1543838432196)
+@@ -55,7 +55,7 @@
+         } else {
+             $MadelineProto->channels->joinChannel([
+                 'channel' => '@' . str_replace('@', '', $chatLink),
+-            ]); 
++            ]);
+         }
+         sm($chatLOG, 'Sono entrato nel canale/gruppo');
+     } catch (\danog\MadelineProto\RPCErrorException $e) {
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(date 1543838422000)
++++ README.md	(date 1543838666408)
+@@ -1,1 +1,3 @@
+-# userbot
+\ No newline at end of file
++# userbot
++**TESTING** 
++`<? $H = 123;`
+\ No newline at end of file
