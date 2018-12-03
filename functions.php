@@ -55,7 +55,7 @@ function joinChat($chatLink, $chatLOG)
         } else {
             $MadelineProto->channels->joinChannel([
                 'channel' => '@' . str_replace('@', '', $chatLink),
-            ]); 
+            ]);
         }
         sm($chatLOG, 'Sono entrato nel canale/gruppo');
     } catch (\danog\MadelineProto\RPCErrorException $e) {
